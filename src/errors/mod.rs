@@ -1,2 +1,1 @@
-use std::error::Error;
-
+pub mod thread_errors;

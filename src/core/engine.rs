@@ -12,7 +12,7 @@ impl Engine {
     pub fn new() -> Self {
         Self {
             pipes: Vec::new(),
-            pool: Pool::new(4),
+            pool: Pool::default(),
         }
         //         for _ in  0..4 {
         //

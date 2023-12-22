@@ -7,3 +7,4 @@ edition = "2021"
 
 [dependencies]
 anyhow = "1.0.75"
+sysinfo = "0.30.0"
